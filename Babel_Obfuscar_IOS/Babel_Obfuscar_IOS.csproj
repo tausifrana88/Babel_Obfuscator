@@ -1,0 +1,65 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0-ios</TargetFramework>
+    <OutputType>Exe</OutputType>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>true</ImplicitUsings>
+    <SupportedOSPlatformVersion>13.0</SupportedOSPlatformVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <CreatePackage>false</CreatePackage>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <CreatePackage>false</CreatePackage>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Babel_Obfuscar_Shared\Babel_Obfuscar_Shared.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="Babel.Obfuscator" Version="10.8.0">
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+      <PrivateAssets>all</PrivateAssets>
+    </PackageReference>
+  </ItemGroup>
+
+  <PropertyGroup>
+      <BabelToolVersion>net8.0</BabelToolVersion>
+      <BabelLicense>floating:O7VDR-FURJA-6NYJ0-29DD9</BabelLicense>
+  </PropertyGroup>
+
+  <Target Name="PostBuildObfuscate" AfterTargets="Build">
+      <Exec Command="echo Running BabelForNet Obfuscation..." />
+
+      <PropertyGroup>
+           <StringEncryption>true</StringEncryption>
+           <ValueEncryption>array=true;true;</ValueEncryption>
+           <ControlFlowObfuscation>goto=on;if=on;switch=on;case=on;call=on</ControlFlowObfuscation>
+           <CopyOutputSymbolsToPublishDirectory>false</CopyOutputSymbolsToPublishDirectory>
+       </PropertyGroup>
+
+      <Babel InputFile="$(TargetDir)Babel_Obfuscar_IOS.dll" OutputFile="$(TargetDir)Babel_Obfuscar_IOS.dll" GenerateMapOutFile="true" XmlRules="$(TargetDir)Babel_Obfuscar_IOS.map.xml" />
+  </Target>
+
+  <!--<PropertyGroup>
+    <Use>tagassembly=true</Use>
+	<StringEncryption>true</StringEncryption>
+	<ControlFlowObfuscation>goto=on;if=on;switch=on;case=on;call=on;true</ControlFlowObfuscation>
+	<DynamicProxy>all</DynamicProxy>
+	<ResourceEncryption>true</ResourceEncryption>
+	<VerboseLevel>3</VerboseLevel>
+    <XmlRules>
+	  <Rules>
+	    <Rule name="rule1" feature="renaming" exclude="false">
+            <Pattern>*</Pattern>
+		</Rule>
+      </Rules>
+    </XmlRules>
+  </PropertyGroup>
+
+   <Target Name="PostBuildObfuscate" AfterTargets="Build">
+      <Exec Command="echo Running BabelForNet Obfuscation..."/>
+      <Babel InputFile="$(TargetDir)Babel_Obfuscar_IOS.dll" OutputFile="$(TargetDir)Babel_Obfuscar_IOS.dll" GenerateMapOutFile="true" XmlRules="$(TargetDir)Babel_Obfuscar_IOS.map.xml" />
+   </Target>-->
+
+</Project>

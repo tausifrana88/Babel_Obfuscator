@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 25.0.1706.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babel_Obfuscar_Android", "Babel_Obfuscar_Android\Babel_Obfuscar_Android.csproj", "{1EFC27CF-5B32-47A6-83FA-651C5347F64C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babel_Obfuscar_IOS", "Babel_Obfuscar_IOS\Babel_Obfuscar_IOS.csproj", "{8F176028-2168-4672-891E-1A18F1F990A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Babel_Obfuscar_Shared", "Babel_Obfuscar_Shared\Babel_Obfuscar_Shared.csproj", "{77E0008A-CE46-4FB0-839C-6EB571808756}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1EFC27CF-5B32-47A6-83FA-651C5347F64C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1EFC27CF-5B32-47A6-83FA-651C5347F64C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1EFC27CF-5B32-47A6-83FA-651C5347F64C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1EFC27CF-5B32-47A6-83FA-651C5347F64C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8F176028-2168-4672-891E-1A18F1F990A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8F176028-2168-4672-891E-1A18F1F990A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8F176028-2168-4672-891E-1A18F1F990A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8F176028-2168-4672-891E-1A18F1F990A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77E0008A-CE46-4FB0-839C-6EB571808756}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77E0008A-CE46-4FB0-839C-6EB571808756}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77E0008A-CE46-4FB0-839C-6EB571808756}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77E0008A-CE46-4FB0-839C-6EB571808756}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {2704AF1C-8364-4B30-9A67-1115104B9206}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "T0cpQn6afGJiYpPXBt1bW/XEC+y5fWR4xO4PK21+VBSGQJoG9q2yiEqoRDVUw7PXPQMVIYfiwH9haA9c0nXoGA==",
+  "success": true,
+  "projectFilePath": "/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_IOS/Babel_Obfuscar_IOS.csproj",
+  "expectedPackageFiles": [
+    "/Users/tausifrana/.nuget/packages/babel.obfuscator/10.8.0/babel.obfuscator.10.8.0.nupkg.sha512",
+    "/Users/tausifrana/.nuget/packages/microsoft.net.illink.tasks/8.0.7/microsoft.net.illink.tasks.8.0.7.nupkg.sha512"
+  ],
+  "logs": []
+}

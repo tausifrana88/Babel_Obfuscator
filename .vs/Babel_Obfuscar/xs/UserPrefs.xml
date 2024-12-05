@@ -1,0 +1,24 @@
+﻿<Properties StartupConfiguration="{1EFC27CF-5B32-47A6-83FA-651C5347F64C}|Default">
+  <MonoDevelop.Ide.ItemProperties.Babel__Obfuscar__Android PreferredExecutionTarget="Android.Pixel_7_API_34" />
+  <Xamarin.Addins.Core.Project ActiveDebugTarget="Android.Pixel_7_API_34" />
+  <MonoDevelop.Ide.ItemProperties.Babel__Obfuscar__IOS PreferredExecutionTarget="MonoDevelop.IPhone.IPhoneDeviceTarget.00008110-000278362283401E" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MultiItemStartupConfigurations />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Babel_Obfuscar_Android/Babel_Obfuscar_Android.csproj">
+    <Files>
+      <File FileName="Babel_Obfuscar_Android/Babel_Obfuscar_Android.csproj" Line="16" Column="31" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Babel_Obfuscar" expanded="True" selected="True" />
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.MonoDroid LastDeploySdkVersion="34.0.113" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Release" />
+</Properties>

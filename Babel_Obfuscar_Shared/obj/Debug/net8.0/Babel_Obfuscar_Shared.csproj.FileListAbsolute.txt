@@ -1,0 +1,11 @@
+/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/bin/Debug/net8.0/Babel_Obfuscar_Shared.deps.json
+/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/bin/Debug/net8.0/Babel_Obfuscar_Shared.dll
+/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/bin/Debug/net8.0/Babel_Obfuscar_Shared.pdb
+/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/obj/Debug/net8.0/Babel_Obfuscar_Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/obj/Debug/net8.0/Babel_Obfuscar_Shared.AssemblyInfoInputs.cache
+/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/obj/Debug/net8.0/Babel_Obfuscar_Shared.AssemblyInfo.cs
+/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/obj/Debug/net8.0/Babel_Obfuscar_Shared.csproj.CoreCompileInputs.cache
+/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/obj/Debug/net8.0/Babel_Obfuscar_Shared.dll
+/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/obj/Debug/net8.0/refint/Babel_Obfuscar_Shared.dll
+/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/obj/Debug/net8.0/Babel_Obfuscar_Shared.pdb
+/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/obj/Debug/net8.0/ref/Babel_Obfuscar_Shared.dll
