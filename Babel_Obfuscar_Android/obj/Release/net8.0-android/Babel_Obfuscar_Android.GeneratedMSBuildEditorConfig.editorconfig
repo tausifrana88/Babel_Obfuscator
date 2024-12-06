@@ -12,6 +12,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = Babel_Obfuscar_Android
-build_property.ProjectDir = /Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Android/
+build_property.ProjectDir = /Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Android/
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = false

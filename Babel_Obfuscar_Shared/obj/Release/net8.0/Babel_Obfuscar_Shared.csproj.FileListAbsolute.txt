@@ -1,0 +1,12 @@
+/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/bin/Release/net8.0/Babel_Obfuscar_Shared.deps.json
+/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/bin/Release/net8.0/Babel_Obfuscar_Shared.dll
+/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/bin/Release/net8.0/Babel_Obfuscar_Shared.pdb
+/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/obj/Release/net8.0/Babel_Obfuscar_Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/obj/Release/net8.0/Babel_Obfuscar_Shared.AssemblyInfoInputs.cache
+/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/obj/Release/net8.0/Babel_Obfuscar_Shared.AssemblyInfo.cs
+/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/obj/Release/net8.0/Babel_Obfuscar_Shared.csproj.CoreCompileInputs.cache
+/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/obj/Release/net8.0/Babel_Obfuscar_Shared.sourcelink.json
+/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/obj/Release/net8.0/Babel_Obfuscar_Shared.dll
+/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/obj/Release/net8.0/refint/Babel_Obfuscar_Shared.dll
+/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/obj/Release/net8.0/Babel_Obfuscar_Shared.pdb
+/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/obj/Release/net8.0/ref/Babel_Obfuscar_Shared.dll

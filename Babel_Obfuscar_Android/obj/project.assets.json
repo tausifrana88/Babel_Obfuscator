@@ -360,11 +360,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Android/Babel_Obfuscar_Android.csproj",
+      "projectUniqueName": "/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Android/Babel_Obfuscar_Android.csproj",
       "projectName": "Babel_Obfuscar_Android",
-      "projectPath": "/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Android/Babel_Obfuscar_Android.csproj",
+      "projectPath": "/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Android/Babel_Obfuscar_Android.csproj",
       "packagesPath": "/Users/tausifrana/.nuget/packages/",
-      "outputPath": "/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Android/obj/",
+      "outputPath": "/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Android/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tausifrana/.nuget/NuGet/NuGet.Config"
@@ -381,8 +381,8 @@
         "net8.0-android34.0": {
           "targetAlias": "net8.0-android",
           "projectReferences": {
-            "/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/Babel_Obfuscar_Shared.csproj": {
-              "projectPath": "/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/Babel_Obfuscar_Shared.csproj"
+            "/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/Babel_Obfuscar_Shared.csproj": {
+              "projectPath": "/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/Babel_Obfuscar_Shared.csproj"
             }
           }
         }

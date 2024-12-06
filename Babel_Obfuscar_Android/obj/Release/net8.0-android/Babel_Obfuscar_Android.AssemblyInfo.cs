@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Babel_Obfuscar_Android")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Release")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+b2b6de68acb0c907246b0b0c4a8afbc7c0cc584f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0+7d066d1fc5765eefb68b26cf11b0e22e7cea36fd")]
 [assembly: System.Reflection.AssemblyProductAttribute("Babel_Obfuscar_Android")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Babel_Obfuscar_Android")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

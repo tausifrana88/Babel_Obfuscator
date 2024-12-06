@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/Babel_Obfuscar_Shared.csproj",
+      "projectUniqueName": "/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/Babel_Obfuscar_Shared.csproj",
       "projectName": "Babel_Obfuscar_Shared",
-      "projectPath": "/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/Babel_Obfuscar_Shared.csproj",
+      "projectPath": "/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/Babel_Obfuscar_Shared.csproj",
       "packagesPath": "/Users/tausifrana/.nuget/packages/",
-      "outputPath": "/Users/tausifrana/Documents/DEMOs/BABEL_OBFUSCAR/Babel_Obfuscar/Babel_Obfuscar_Shared/obj/",
+      "outputPath": "/Users/tausifrana/Documents/Github/Babel_Obfuscator/Babel_Obfuscar_Shared/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/Users/tausifrana/.nuget/NuGet/NuGet.Config"

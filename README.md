@@ -12,12 +12,14 @@ Steps to Obfuscate Code:
 
 4. Build Project
 
-If project is successfully build the .dll file with given project name is generated on given path
+If project is successfully build then .dll file with given project name is generated on given path
 
 Android : /bin/Release/net8.0-android/Babel_Obfuscar_Android.dll
 IOS     : /bin/Release/net8.0-ios/ios-arm64/Babel_Obfuscar_IOS.dll 
 
-=====
+Notes:
+In Android.csproj file if babel configuration is according to given babel example <a href="https://github.com/babelfornet/android-app-example/">Android Application</a> then application crashed.
+
 References:
 
 Babel Obfuscator is an obuscator for .NET Framework and Mono developed by babelfor.NET

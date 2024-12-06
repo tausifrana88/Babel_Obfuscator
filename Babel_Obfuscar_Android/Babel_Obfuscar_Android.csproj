@@ -26,6 +26,30 @@
       <BabelLicense>floating:O7VDR-FURJA-6NYJ0-29DD9</BabelLicense>
   </PropertyGroup>
 
+  <!-- Babel configuration according to sample project --> 
+  <PropertyGroup>
+    <Use>tagassembly=true</Use>
+	<StringEncryption>true</StringEncryption>
+	<ControlFlowObfuscation>goto=on;if=on;switch=on;case=on;call=on;true</ControlFlowObfuscation>
+	<DynamicProxy>all</DynamicProxy>
+	<ResourceEncryption>true</ResourceEncryption>
+	<VerboseLevel>3</VerboseLevel>
+
+    <XmlRules>
+      <Rules>
+        <Rule name="rule1" feature="renaming" exclude="false">
+          <Pattern>*</Pattern>
+        </Rule>
+      </Rules>
+    </XmlRules>
+  </PropertyGroup>
+
+  <!-- This method rename private string declarations, private and public methods and field but not Class name and Public Method Name
+  <PropertyGroup>
+      <BabelToolVersion>net8.0</BabelToolVersion>
+      <BabelLicense>floating:O7VDR-FURJA-6NYJ0-29DD9</BabelLicense>
+  </PropertyGroup>
+
   <Target Name="PostBuildObfuscate" AfterTargets="Build">
       <Exec Command="echo Running BabelForNet Obfuscation..." />
 
@@ -37,44 +61,6 @@
        </PropertyGroup>
 
       <Babel InputFile="$(TargetDir)Babel_Obfuscar_Android.dll" OutputFile="$(TargetDir)Babel_Obfuscar_Android.dll" GenerateMapOutFile="true" XmlRules="$(TargetDir)Babel_Obfuscar_Android.map.xml" />
-  </Target>
-
-  <!--<PropertyGroup>
-    <Use>tagassembly=true</Use>
-	<StringEncryption>true</StringEncryption>
-	<ControlFlowObfuscation>goto=on;if=on;switch=on;case=on;call=on;true</ControlFlowObfuscation>
-	<DynamicProxy>all</DynamicProxy>
-	<ResourceEncryption>true</ResourceEncryption>
-	<VerboseLevel>3</VerboseLevel>
-
-    <XmlRules>
-	  <Rules>
-	    <Rule name="rule1" feature="renaming" exclude="false">
-            <Pattern>*</Pattern>
-		</Rule>
-      </Rules>
-    </XmlRules>
-  </PropertyGroup>
-
-   <Target Name="PostBuildObfuscate" AfterTargets="Build">
-      <Exec Command="echo Running BabelForNet Obfuscation..."/>
-      <Babel InputFile="$(TargetDir)Babel_Obfuscar_Android.dll" OutputFile="$(TargetDir)Babel_Obfuscar_Android.dll" GenerateMapOutFile="true" XmlRules="$(TargetDir)Babel_Obfuscar_Android.map.xml" />
-   </Target>-->
-
-
- <!-- <Target Name="RunBabelObfuscator" AfterTargets="AfterBuild">
-      <PropertyGroup>
-           <Obfuscation>
-             <TypePattern Match="true" Pattern="Babel_Obfuscar_Android.*" />
-             <Method Skip="false" Public="true" />
-             <Class Skip="false" Public="true" />
-             <Property Skip="false" Public="true" />
-             <Field Skip="false" Public="true" />
-             <StringEncryption Enabled="true" />
-             <Namespace Skip="true" Pattern="System" />
-             <Namespace Skip="true" Pattern="Microsoft" />
-            </Obfuscation>
-      </PropertyGroup>
   </Target>-->
 
 </Project>
